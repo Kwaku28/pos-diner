@@ -42,7 +42,7 @@ Built with Next.js, the POS-Diner app benefits from server-side rendering, stati
 
 ### Tech Stack <a name="tech-stack"></a>
 
-- This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a [Next.js](https://nextjs.org/) project.
 
 <!-- Features -->
 
@@ -62,11 +62,11 @@ Built with Next.js, the POS-Diner app benefits from server-side rendering, stati
 
 # 💻 Getting Started <a name="getting-started"></a>
 
-- This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-To get a local copy up and running, follow these steps.
+#### To get a local copy up and running, follow these steps.
 
 ### Prerequisites <a name="prerequisites"></a>
 
