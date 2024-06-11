@@ -5,7 +5,10 @@ import "@/app/ui/globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "POS Diner",
+  title: {
+    template: '%s | POS Diner',
+    default: 'POS Diner',
+  },
   description:
     "A seamless, efficient, and user-friendly interface for managing orders, payments, and inventory in a fast-paced dining environment.",
 };
