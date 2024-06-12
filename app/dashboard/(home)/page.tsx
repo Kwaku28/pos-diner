@@ -1,13 +1,18 @@
+import Meals from "@/app/ui/dashboard/meals/meals";
+import MealsNav from "@/app/ui/dashboard/meals/meals-nav";
+import RecentOrders from "@/app/ui/dashboard/recent-orders";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: 'Dashboard',
+  title: "Dashboard",
 };
 
 export default async function Dashboard() {
   return (
-    <div>
-      <h1>Dashboard</h1>
-    </div>
+    <main>
+      <RecentOrders />
+      <MealsNav />
+      <Meals />
+    </main>
   );
 }
