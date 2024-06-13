@@ -1,3 +1,4 @@
+import Invoice from "@/app/ui/dashboard/invoice";
 import Meals from "@/app/ui/dashboard/meals/meals";
 import MealsNav from "@/app/ui/dashboard/meals/meals-nav";
 import RecentOrders from "@/app/ui/dashboard/recent-orders";
@@ -13,6 +14,7 @@ export default async function Dashboard() {
       <RecentOrders />
       <MealsNav />
       <Meals />
+      <Invoice />
     </main>
   );
 }
