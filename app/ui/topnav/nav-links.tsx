@@ -9,8 +9,6 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import clsx from 'clsx';
 
-
-
 const links = [
   { name: 'Dashboard', href: '/dashboard', icon: Squares2X2Icon },
   {
