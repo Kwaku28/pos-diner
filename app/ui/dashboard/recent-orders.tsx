@@ -1,8 +1,8 @@
 export default function RecentOrders() {
   return (
     <div className="bg-white">
-      <h2 className="text-md font-bold mb-2">Recent Orders</h2>
-      <ul className="flex py-2 gap-3">
+      <h2 className="text-md mb-1 font-bold">Recent Orders</h2>
+      <ul className="flex gap-3">
         <li className="flex flex-col w-40 h-24 border-[1px] p-2 justify-around items-start rounded-lg shadow-md md:w-48">
           <div className="flex justify-between w-full">
             <h3 className="text-sm font-bold">Lawrence</h3>
