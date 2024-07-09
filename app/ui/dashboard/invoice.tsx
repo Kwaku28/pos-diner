@@ -6,6 +6,7 @@ import { useState } from "react";
 import InvoiceModal from "./invoice-modal";
 import InvoiceCard from "./invoice-card";
 import CalculateInvoice from "./calculate-invoice";
+import InvoiceNav from "./invoice-nav";
 
 export default function Invoice() {
   const [invoiceModalOpen, setInvoiceModalOpen] = useState(false);
@@ -31,8 +32,9 @@ export default function Invoice() {
         >
           <div className="flex flex-col gap-3">
             <h2 className="text-2xl text-center font-semibold">Order #2255</h2>
-            <div className="space-y-2 pt-4">
-              <h3 className="text-xl py-2 font-semibold">Customer Information</h3>
+            <InvoiceNav />
+            <div className="space-y-2 pt-1">
+              <h3 className="text-xl font-semibold">Customer Information</h3>
               <form className="flex flex-col gap-2">
                 <input
                   type="text"
