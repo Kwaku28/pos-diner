@@ -13,7 +13,6 @@ export default function Home() {
           >
             <strong>Welcome to Diner.</strong> A seamless, efficient, and
             user-friendly interface for managing orders, payments, and inventory
-            in a fast-paced dining environment
           </p>
           <Link
             href="/login"
